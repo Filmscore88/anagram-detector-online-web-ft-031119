@@ -11,6 +11,6 @@ def match(array)
     if word.split("").sort == self.word.split("").sort 
       word
   }
-      
+  end    
 end 
 end 
