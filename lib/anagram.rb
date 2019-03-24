@@ -10,6 +10,7 @@ def match(array)
   array.collect{|word| 
     if word.split("").sort == self.word.split("").sort 
       word
+      else []
     end 
   } 
   
