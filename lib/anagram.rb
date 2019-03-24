@@ -7,7 +7,7 @@ def initialize(word)
 end
   
 def match(array)
-  array.each{|word| 
+  array.each{|word| }
   binding.pry
 end 
 end 
