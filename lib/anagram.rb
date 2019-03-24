@@ -7,12 +7,13 @@ def initialize(word)
 end
   
 def match(array)
-  array.collect{|word| 
+  array.each{|word| 
     if word.split("").sort == self.word.split("").sort 
       word
-      else []
+      else 
     end 
   } 
   
 end 
 end 
+ 
