@@ -7,7 +7,10 @@ def initialize(word)
 end
   
 def match(array)
-  array.each{|word| }
-  binding.pry
+  array.collect{|word| 
+    if word.split("").sort == self.word.split("").sort 
+      word
+  }
+      
 end 
 end 
